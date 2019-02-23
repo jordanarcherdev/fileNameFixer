@@ -16,7 +16,9 @@ Tidys up ugly downloaded show filenames. Eg dj.kHaLed.S01E01.Torrent.DoWnLoAdEd.
 
 If you specify a show name, fixer will add the episode name to the filename. Run: 
 ```
-fixer --show="American Dad"
+fixer --show="American Dad!"
 ```
+Unfortuanately, due to the API from tv maze, you have to use the exact name eg "American Dad!" Instead of "american dad" <= Note the exclimation mark. Will fix this when i find a better solution. In the meantime you can get the exact show names from tvmaze.com
+
 This will change dj.kHaLed.S01E01.Torrent.DoWnLoAdEd.from.mp4 to
 S01E01 - Pilot.mp4
